@@ -1,6 +1,6 @@
 | Language | Platform | Author |
 | -------- | --------|--------|
-| Go Lang |  Azure Web App, Virtual Machine, AKS| |
+| Go Lang |  AKS| |
 
 # Sample Go web application
 
