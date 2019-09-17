@@ -43,9 +43,7 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-          
-    - upload: manifests
-      artifact: manifests
+
 
 - stage: DeployPR
   displayName: Deploy PR review app
