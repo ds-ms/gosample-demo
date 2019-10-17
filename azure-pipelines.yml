@@ -36,7 +36,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
       
-    environment: 'desattiraks-bg.$(appName)'
+    environment: 'desattiraks-bg.$(k8sNamespaceForPR)'
     strategy:
       runOnce:
         deploy:
