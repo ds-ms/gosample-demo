@@ -20,7 +20,7 @@ variables:
   vmImageName: 'ubuntu-latest'
   
   azureServiceConnection: 'rmdev'
-  k8sNamespaceForPR: '$(build.sourceBranchName)'
+  k8sNamespaceForPR: '$(build.sourceBranch)'
   k8sNamespace: 'default'
   AZDSControllerName: 'desattir-bg'
   AZDSControllerRG: 'desattir-bg'
